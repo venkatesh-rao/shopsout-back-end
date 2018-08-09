@@ -1,0 +1,16 @@
+{
+  "ShopsOut": {
+    "host": "localhost",
+    "port": 27017,
+    "url": "",
+    "database": "ShopsOut",
+    "password": "",
+    "name": "ShopsOut",
+    "user": "",
+    "connector": "mongodb"
+  },
+  "transient": {
+    "name": "transient",
+    "connector": "transient"
+  }
+}

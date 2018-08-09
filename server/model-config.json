@@ -1,0 +1,63 @@
+{
+  "_meta": {
+    "sources": [
+      "loopback/common/models",
+      "loopback/server/models",
+      "../common/models",
+      "./models"
+    ],
+    "mixins": [
+      "loopback/common/mixins",
+      "loopback/server/mixins",
+      "../common/mixins",
+      "./mixins"
+    ]
+  },
+  "User": {
+    "dataSource": "ShopsOut",
+    "public": false
+  },
+  "AccessToken": {
+    "dataSource": "ShopsOut",
+    "public": false
+  },
+  "ACL": {
+    "dataSource": "ShopsOut",
+    "public": false
+  },
+  "RoleMapping": {
+    "dataSource": "ShopsOut",
+    "public": false,
+    "options": {
+      "strictObjectIDCoercion": true
+    }
+  },
+  "Role": {
+    "dataSource": "ShopsOut",
+    "public": false
+  },
+  "ShopOwner": {
+    "dataSource": "ShopsOut",
+    "public": true
+  },
+  "Shop": {
+    "dataSource": "ShopsOut",
+    "public": true
+  },
+  "shopAddress": {
+    "dataSource": "transient",
+    "public": false
+  },
+  "shopContact": {
+    "dataSource": "transient",
+    "public": false
+  },
+  "shopEmail": {
+    "dataSource": "transient",
+    "public": false
+  },
+  "Product": {
+    "dataSource": "ShopsOut",
+    "public": true
+  }
+}
