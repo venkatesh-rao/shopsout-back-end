@@ -6,6 +6,10 @@
     "validateUpsert": true
   },
   "properties": {
+    "username": {
+      "type": "number",
+      "required": true
+    },
     "mobileNo": {
       "type": "number",
       "required": true
